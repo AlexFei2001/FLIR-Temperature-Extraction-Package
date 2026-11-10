@@ -1,0 +1,5 @@
+{
+  "exiftool_command": ["exiftool"],
+  "raw_byte_order": "swap16",
+  "measurement_overrides": {}
+}

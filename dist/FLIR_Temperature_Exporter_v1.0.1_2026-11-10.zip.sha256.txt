@@ -1,0 +1,1 @@
+4d63c7187af98f7fb8f67a5b487bb990e6741a7a9a436f024ecaf1ce2c82218d  FLIR_Temperature_Exporter_v1.0.1_2026-11-10.zip

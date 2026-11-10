@@ -1,0 +1,17 @@
+{
+  "version": "1.0.1",
+  "created_local_date": "2026-11-10",
+  "origin_file": "experiments/thermal_inputs.py",
+  "origin_file_sha256": "4f3e521c65187e129b6b157d52cd12a3798212355d0110e6bd7b8e15fc928e6f",
+  "copied_function_source_sha256": {
+    "_preview": "e3f23e137e28e8e51a42e9e54f79ea1c4bf48636c1ce351e869edea9816afab9",
+    "FLIR_FIELDS": "8e8a57646198f0f22f11de6e9ad730538573b6edbda13cc9602e3d999074d32f",
+    "_tool": "a080f26fe6b8dee766800c8553ac92e0cb2908f3891a135ec45e8dc5602e318b",
+    "flir_raw_to_celsius": "436e6bd7158fc2f6741a76cc8a7447009c7a7daa15192846c4b197f66023fae9",
+    "_flir": "6f53e4d58efd748d8ffebfc1c6f2e144f07eda30a215adb900bdbe8c859ca4e7"
+  },
+  "core_source_expressions_identical": true,
+  "note": "Standalone wrapper and CLI are new. Original project files are unchanged. External dependencies are installed separately.",
+  "repository": "https://github.com/AlexFei2001/FLIR-Temperature-Extraction-Package",
+  "release_note": "Multilingual publication update. Copied numerical function expressions are unchanged from 1.0.0."
+}

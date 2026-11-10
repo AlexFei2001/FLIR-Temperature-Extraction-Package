@@ -1,0 +1,18 @@
+FLIR Temperature Exporter / Estrazione delle temperature FLIR / FLIR温度提取
+
+English: open README.md for setup and usage.
+Italiano: aprire README_IT.md per installazione e utilizzo.
+中文：打开 README_中文.md 阅读安装与使用说明。
+
+1. 解压整个文件夹，打开 README_中文.md 阅读安装步骤。
+2. 安装 Python 3.10–3.14、requirements.txt 中的依赖，以及官方 ExifTool。
+3. 将 config.example.json 复制为 config.json，修改为你电脑上的 ExifTool 路径。
+4. 核对字节序：示例swap16仅在原项目四张FLIR T1020文件上使用过，不是所有FLIR的通用值。
+5. 在工具文件夹的终端执行：
+   python extract_flir.py --input "你的图片文件夹" --output "你的输出文件夹" --config config.json --csv
+
+也可运行 python extract_flir.py --interactive，或双击 run_windows.cmd。
+
+输出中的 temperature.npy / temperature.csv 是摄氏温度矩阵；PNG是显示图。
+工具不包含照片、温度数据集或ExifTool程序；不需要原论文项目或YOLO。
+成功提取不等于完成独立测温校准，请参照说明与FLIR软件核对数值。

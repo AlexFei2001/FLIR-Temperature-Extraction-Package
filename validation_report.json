@@ -1,0 +1,76 @@
+{
+  "status": "passed",
+  "real_file_checks": [
+    {
+      "sample": "FLIR_0016",
+      "shape_hw": [
+        768,
+        1024
+      ],
+      "dtype": "float64",
+      "exact_equal_to_historical_matrix": true,
+      "csv_exact_roundtrip": true,
+      "source_unchanged": true,
+      "max_abs_difference_c": 0.0
+    },
+    {
+      "sample": "FLIR_0059",
+      "shape_hw": [
+        768,
+        1024
+      ],
+      "dtype": "float64",
+      "exact_equal_to_historical_matrix": true,
+      "csv_exact_roundtrip": true,
+      "source_unchanged": true,
+      "max_abs_difference_c": 0.0
+    },
+    {
+      "sample": "FLIR_0070",
+      "shape_hw": [
+        768,
+        1024
+      ],
+      "dtype": "float64",
+      "exact_equal_to_historical_matrix": true,
+      "csv_exact_roundtrip": true,
+      "source_unchanged": true,
+      "max_abs_difference_c": 0.0
+    },
+    {
+      "sample": "FLIR_0102",
+      "shape_hw": [
+        768,
+        1024
+      ],
+      "dtype": "float64",
+      "exact_equal_to_historical_matrix": true,
+      "csv_exact_roundtrip": true,
+      "source_unchanged": true,
+      "max_abs_difference_c": 0.0
+    }
+  ],
+  "core_source_expressions_identical": true,
+  "software": {
+    "numpy": "2.2.6",
+    "Pillow": "12.2.0"
+  },
+  "python": "3.10.20",
+  "exiftool_version": "13.61",
+  "byte_order": "swap16",
+  "measurement_overrides": {},
+  "absolute_thermometry_vendor_spotcheck_complete": false,
+  "automated_tests": {
+    "passed": 37,
+    "standalone": 17,
+    "existing_adapter_regression": 20,
+    "failures": 0,
+    "skipped": 0
+  },
+  "real_file_validation_version": "1.0.0",
+  "publication_update": {
+    "version": "1.0.1",
+    "numerical_core_unchanged": true,
+    "standalone_tests_rerun_passed": 17
+  }
+}
